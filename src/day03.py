@@ -30,4 +30,4 @@ for d in data:
 	turn %= len(positions)
 r = len(visited)
 
-repres(r)
+repres(r, part2)
