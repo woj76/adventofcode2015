@@ -3,9 +3,8 @@
 from aoc import repres
 import json
 
-file = open("../data/day12.txt", "rt")
-data = json.loads(file.read().strip())
-file.close()
+with open("../data/day12.txt", "rt") as file:
+	data = json.load(file)
 
 part2 = True
 r = 0
